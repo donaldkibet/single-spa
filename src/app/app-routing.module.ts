@@ -7,10 +7,6 @@ import { AppComponent } from './app.component';
 
 const routes: Routes = [
   {
-    path: 'app',
-    component: AppComponent
-  },
-  {
     path: '',
     redirectTo: '/app',
     pathMatch: 'full'
