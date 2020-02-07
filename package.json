@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa": "ng build --prod --deploy-url http://localhost:4200/",
-    "serve:single-spa": "ng serve --disable-host-check --port 4200 --deploy-url http://localhost:4200/ --live-reload false"
+    "build:single-spa": "ng build --prod --deploy-url https://frozen-brook-48130.herokuapp.com/",
+    "serve:single-spa": "ng serve --disable-host-check --port 4200 --deploy-url https://frozen-brook-48130.herokuapp.com/ --live-reload false"
   },
   "private": true,
   "dependencies": {
@@ -48,11 +48,5 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "ng test --browsers ChromeHeadless --watch=false",
-      "pre-push": "ng test --browsers ChromeHeadless --watch=false"
-    }
   }
 }
