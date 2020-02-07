@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa": "ng build --prod --deploy-url https://frozen-brook-48130.herokuapp.com/",
-    "serve:single-spa": "ng serve --disable-host-check --port 4200 --deploy-url https://frozen-brook-48130.herokuapp.com/ --live-reload false"
+    "build:single-spa": "ng build --prod --deploy-url http://localhost:4200/",
+    "serve:single-spa": "ng serve --disable-host-check  --live-reload false"
   },
   "private": true,
   "dependencies": {
